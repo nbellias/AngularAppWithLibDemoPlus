@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
 
+cd .\AngularAppWithLibDemoPlus
+
+ng g library banners --project-root=designsystem/banners --prefix=ds
+ng g library buttons --project-root=designsystem/buttons --prefix=ds
+
+cd .\designsystem\
+
+ng g c banners/src/lib/special-banner --prefix=ds
+ng g c buttons/src/lib/special-button --prefix=ds
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

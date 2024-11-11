@@ -3,6 +3,22 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "banners": [
+        "./dist/banners",
+        "./dist/banners"
+      ],
+      "bannerslib": [
+        "./dist/bannerslib"
+      ],
+      "buttons": [
+        "./dist/buttons",
+        "./dist/buttons"
+      ],
+      "buttonslib": [
+        "./dist/buttonslib"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
